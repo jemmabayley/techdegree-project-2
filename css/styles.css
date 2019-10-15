@@ -1,0 +1,48 @@
+/* General */
+
+body {
+    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+h1 {
+    color: #4a4a4a;
+    text-align: center;
+}
+
+p {
+    color: #7f7f7f;
+    font-weight: 300;
+}
+
+/* Nav */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav a {
+    background: #fff;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin: 2px 0;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+}
+
+header img {
+    margin-bottom: 5px;
+    margin-top: 40px;
+    width: 100%;
+}
