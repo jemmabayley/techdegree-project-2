@@ -3,12 +3,12 @@
 body {
     background: #fafafa;
     font-family: 'Roboto', sans-serif;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin: 0;
 }
 
 h1 {
     color: #4a4a4a;
+    font-size: 27px;
     text-align: center;
 }
 
@@ -28,6 +28,7 @@ nav {
 nav a {
     background: #fff;
     color: #4a4a4a;
+    font-size: 15px;
     font-weight: bold;
     margin: 2px 0;
     padding: 10px;
@@ -38,11 +39,53 @@ nav a {
 /* Header */
 
 header {
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: center;
 }
 
 header img {
     margin-bottom: 5px;
     margin-top: 40px;
-    width: 100%;
+    width: 200px;
+}
+
+header p {
+    line-height: 22px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+/* main */
+
+main {
+    background: #ffffff;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 50px 10px 30px 10px;
+    text-transform: uppercase;
+}
+
+main h3 {
+    color: #4a4a4a;
+    font-weight: normal;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+main p {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 20px;
 }
