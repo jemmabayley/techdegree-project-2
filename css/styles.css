@@ -14,7 +14,6 @@ h1 {
 
 p {
     color: #7f7f7f;
-    font-weight: 300;
 }
 
 /* Nav */
@@ -60,6 +59,7 @@ header p {
 
 main {
     background: #ffffff;
+    padding-bottom: 30px;
 }
 
 .title {
@@ -84,8 +84,67 @@ main img {
 }
 
 main p {
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    line-height: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+/* contact */
+
+section {
+    padding-bottom: 60px;
+}
+
+section h3 {
+    color: #4a4a4a;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+section address {
+    color: #7f7f7f;
+    font-weight: 300;
+    text-align: center;
+}
+
+section address a {
+    color: #7f7f7f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* footer */
+
+footer {
+    color: #4a4a4a;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 10px;
+}
+
+footer a {
+    color: #4a4a4a;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
