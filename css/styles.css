@@ -1,3 +1,7 @@
+/**
+    Mobile Styles
+**/
+
 /* General */
 
 body {
@@ -147,4 +151,39 @@ footer a {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/**
+    Tablet Styles
+**/
+
+@media (min-width: 768px) {
+    header {
+        padding-top: 50px;
+    }
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    nav a {
+        background: transparent;
+    }
+    .profile {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .profile p {
+        font-size: 21px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .profile img {
+        width: 290px;
+    }
+    header {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
