@@ -158,9 +158,6 @@ footer a {
 **/
 
 @media (min-width: 768px) {
-    header {
-        padding-top: 50px;
-    }
     nav {
         flex-direction: row;
         justify-content: center;
@@ -185,5 +182,31 @@ footer a {
     header {
         margin-left: 25px;
         margin-right: 25px;
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .title {
+        width: 100%;
+    }
+    .project {
+        width: 348px;
+    }
+    .project img {
+        width: 100%;
+        margin: 0;
+    }
+    .project p {
+        font-size: 14px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 }
