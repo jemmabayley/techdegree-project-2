@@ -10,25 +10,24 @@
     <title>Project 2</title>
 </head>
 
-<body>
+<body id="top">
     <header>
-        <div>
+        <div class="top-bar">
             <h1>Student Name</h1>
             <nav>
                 <a href="#">Home</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
         <div class="profile">
             <img src="images/responsive-layout-profile.png" alt="Profile picture">
             <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in
-                front-end
-                web development at Treehouse and am excited to put all my skills to use!</p>
+                front-end web development at Treehouse and am excited to put all my skills to use!</p>
         </div>
     </header>
 
-    <main>
+    <main id="portfolio">
 
         <h3 class="title">Portfolio</h3>
 
@@ -79,10 +78,10 @@
 
     </main>
 
-    <section>
+    <section id="contact">
         <h3>Contact</h3>
-        <p>If you're interested in chatting or want more information about what i've been working on, I'd love to
-            hear from you!</p>
+        <p>If you're interested in chatting or want more information
+            about what i've been working on, I'd love to hear from you!</p>
         <address>
             Phone <a href="tel:+11115551234">+1 (111) 555-1234</a><br /><br />
             Email <a href="mailto:email@yoursite.com">email@yoursite.com</a>
@@ -90,14 +89,14 @@
     </section>
 
     <footer>
-        <h3>Student Name</h3>
+        <h3>Student name</h3>
 
-        <a href="#">Back To Top</a>
-        <!-- <nav>
+        <a class="back-to-top" href="#top">Back To Top</a>
+        <nav>
             <a href="#">Home</a>
             <a href="#">Portfolio</a>
             <a href="#">Contact</a>
-        </nav> -->
+        </nav>
     </footer>
 </body>
 
